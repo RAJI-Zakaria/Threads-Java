@@ -16,11 +16,13 @@
             // Attendre que les threads se terminent
             th1.join();
             th2.join();
+            
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
-        System.out.println("Fin du programme");
+        System.out.println("--------------------Fin du programme--------------------");
+        System.out.println(nbr);
     }
 
 }
