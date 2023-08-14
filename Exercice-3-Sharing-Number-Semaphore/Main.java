@@ -1,9 +1,10 @@
  import java.util.concurrent.Semaphore;
 
  public class Main {
-    private static Semaphore sem = new Semaphore(1);
+    // javac Th1.java | javac Th2.java | javac Number.java |  javac Main.java 
+    private static Semaphore sem2 = new Semaphore(1);
     public static void main(String[] args) {
-        
+        Semaphore sem = new Semaphore(1);
 
         Number nbr = new Number();
 

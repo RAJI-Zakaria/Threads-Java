@@ -23,8 +23,8 @@ public class Th1 extends Thread {
 
 
             sem.release();
-            Thread.sleep(1);
-            start++;
+            Thread.sleep(3000);
+            start+=2;
         }
         }catch(Exception e){
             System.out.println("Error : "+e.getMessage());  

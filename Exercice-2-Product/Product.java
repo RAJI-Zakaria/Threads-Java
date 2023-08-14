@@ -22,6 +22,15 @@ public class Product {
         
     }
 
+    public synchronized void deposer ( int type )
+  {
+    system.out.println( "depot  -> " + this)
+  }
+  public synchronized Produit recuperer ()
+  {
+    system.out.println( "recup  -> " + this) 
+  }
+
     @Override
     public String toString() {
         return "Color : " + this.color + " - Weight : " + this.weight + " kg";

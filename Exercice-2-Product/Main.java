@@ -1,4 +1,7 @@
  public class Main {
+
+
+    //javac Th1.java | javac Th2.java | javac Product.java |  javac Main.java 
     public static void main(String[] args) {
         Th1 th1 = new Th1("Th secondaire 1");
         Th2 th2 = new Th2("Th secondaire 2");
